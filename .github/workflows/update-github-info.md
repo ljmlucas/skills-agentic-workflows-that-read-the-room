@@ -18,6 +18,7 @@ network:
     - github.com
     - github.blog
     - awesome-copilot.github.com
+model: gpt-4.1
 engine:
    id: copilot
    copilot-sdk: true
