@@ -17,9 +17,11 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 engine:
    id: copilot
    copilot-sdk: true
+   model: gpt-4.1
 ---
 
 # Update Mona's GitHub Info website
@@ -30,10 +32,12 @@ Use these sources:
 - `notes/mona-notes.md`
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
 Update `site/content/github-info.md` with concise,
 practical updates for readers and include source context when content comes
-from the GitHub Blog or GitHub Changelog.
+from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
+Web fetch https://awesome-copilot.github.com/workflows/.
 
 Open a pull request for Mona to review. 
 Use a pull request title that mentions Mona or GitHub Info. 
