@@ -18,7 +18,7 @@ network:
     - github.com
     - github.blog
     - awesome-copilot.github.com
-model: gpt-5.6-luna
+model: gpt-5.6
 engine:
    id: copilot
    copilot-sdk: true
